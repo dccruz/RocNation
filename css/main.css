@@ -1,19 +1,23 @@
 
 body {
-  margin: 0;
+  background-color: #B5A7BD;
+  margin: 0 auto;
   padding: 0;
-}
-span {
-  color: red;
-}
+  font-variant: small-caps;
+  width: auto;
+  }
 
+
+span {
+  color: /*#F85C63*/#A52F40;
+}
 /* ~~ Top Navigation Bar ~~ */
 
 
 .navigation-bar {
-  background-color: white;
+  background-color: #B5A7BD;
   height: 100px;
-  width: auto;
+  width: 1100px;
   text-align:center;
   }
 .navigation-bar img{
@@ -26,7 +30,7 @@ span {
   padding: 20px;
   margin: 0px;
   text-align: right;
-  /*display:inline-block;*/
+  display:inline-block;
   vertical-align:top;
   }
 .navigation-bar li {
@@ -35,7 +39,7 @@ span {
   height: 24px;
   margin-top: 4px;
   margin-bottom: 4px;
-  display: inline;
+  display: inline-block;
   }
 .navigation-bar li a {
   color: black;
@@ -48,15 +52,239 @@ span {
   padding: 5px 15px;
   opacity: 0.7;
   }
-
+  }
 hr{
     width:95%;
   }
 
 
-.jayz img{
-    width: 90%;
+.avenger img{
+    width: 85%;
     height: 300px;
     border-radius: 8px;
+    
+
     }
+
+/*paragraph section*/
+#left-text {
+  max-width: 45%;
+  float: left;
+  width
+}
+
+#left-p {
+  border-radius: 4px;
+  padding-left: 15px;
+  text-align: left;
+  /*word-wrap: break-word; - can be used if the wrapping */
+  }
+
+#right-p {
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+  }
+
+#right-text {
+  width: 50%;
+  float:left;
+  }
+
+h3 {
+  text-align: center;
+  font-variant: small-caps;
+
+    }
+section {
+    height:225px;
+    width:1100px;
+    text-align: left;
+    }
+.captain {
+  background: url(https://i.annihil.us/u/prod/marvel/i/mg/3/50/537ba56d31087/standard_xlarge.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+  }
+.ironman {
+  background: url(https://i.annihil.us/u/prod/marvel/i/mg/9/c0/527bb7b37ff55/standard_xlarge.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+  }
+.spiderman {
+  background: url(https://i.annihil.us/u/prod/marvel/i/mg/9/30/538cd33e15ab7/standard_xlarge.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+  } 
+.thor {
+  background: url(https://i.annihil.us/u/prod/marvel/i/mg/5/a0/537bc7036ab02/standard_xlarge.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+  } 
+.hulk {
+  background: url(https://i.annihil.us/u/prod/marvel/i/mg/5/a0/538615ca33ab0/standard_xlarge.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+  } 
+.blackwidow {
+  background: url(https://i.annihil.us/u/prod/marvel/i/mg/9/10/537ba3f27a6e0/standard_xlarge.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+  } 
+.blackpanther {
+  background: url(https://i.annihil.us/u/prod/marvel/i/mg/1/c0/537ba2bfd6bab/standard_xlarge.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+  } 
+.hawkeye {
+  background: url(https://i.annihil.us/u/prod/marvel/i/mg/3/60/537bad8219731/standard_xlarge.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+  } 
+.wolverine {
+  background: url(https://i.annihil.us/u/prod/marvel/i/mg/2/60/537bcaef0f6cf/standard_xlarge.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+  } 
+.vision {
+  background: url(https://i.annihil.us/u/prod/marvel/i/mg/9/90/537bc9381fd1d/standard_xlarge.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+  } 
+.captain p, .ironman p,.spiderman p,.thor p,.hulk p,.blackwidow p, .blackpanther p, .hawkeye p, .wolverine p, .vision p{
+  font-family: 'Roboto', sans-serif;
+  background-color: /*#897438*/#A52F40;
+  position: absolute;
+  bottom: 0px;
+  width: 200px;
+  color: /*#FAD6D9*/ #B5A7BD;
+  margin: 0;
+  }
+.closingp{
+  text-align: center;
+  width: 1100px;
+  height: 30px;
+}
+
+
+
+}
+
+
+
+/*.footer{
+  clear: both;
+  margin: 0; padding: 0;
+  background-color: black;
+  width: auto;
+  height: 400px;
+}
+*/
+#footer {
+    clear: both;
+    background-color:  #77aadd /*!important*/;
+    margin: 0; padding: 0;
+    font: normal .95em/1.5em 'Tahoma', Trebuchet MS, Sans-serif;
+    width:100%;
+
+
+}
+
+#footer-content {   
+    border-top: 0px solid #EAEAEA;
+    margin: 0 auto;
+    padding-left: 15px;   
+    background-color: #77aadd !important; 
+    width:100%; 
+}
+button {
+  height: 20px;
+  position: relative;
+  margin: -20px -50px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+}
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #white;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: ##A52F40;
+  padding: 20px;
+}
+
+.subject {
+  height: 200px
+}
+
+
+
+
+
+
 
